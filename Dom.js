@@ -1,0 +1,10 @@
+document.title = "Dom in JavaScript";
+document.body.style.backgroundColor = "pink";
+document.getElementById("header").innerHTML = "Hello, World";
+document.getElementById("para").style.color = "red";
+document.getElementById("para").style.fontSize = "30px";
+document.getElementById("mr").style.color = "yellow";
+document.getElementsByTagName("h2")[0].style.color = "green";
+document.getElementsByClassName("csm")[0].style.color = "blue";
+document.getElementsByClassName("cst")[0].style.color = "white";
+document.getElementsByClassName("csc")[0].style.color = "brown";
