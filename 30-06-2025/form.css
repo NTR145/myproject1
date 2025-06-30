@@ -1,0 +1,14 @@
+h1{
+    background-color: orangered;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+body {
+     text-align: center;
+}
+fieldset{
+    border:1px solid grey;
+    margin: 500px;
+    background-color: red;
+}
