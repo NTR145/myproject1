@@ -1,0 +1,279 @@
+
+body{
+    background-color:antiquewhite;
+}
+
+#logo{
+    width: 300px;
+    height: 100px;
+    padding-left: 50px;
+    padding-top: 20px;
+    /* padding-bottom: 20px; */
+    padding-right: 100px;
+    display: 50px;
+}
+
+#head{
+    border:1px solid white;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    /* height: 150px; */
+    /* text-decoration: none; */
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+a:hover{
+    color:blue;
+}
+.saj{
+    width: 250px;
+    height: 30px;
+    border-radius: 100px;
+}
+#ntr{
+    width:100%;
+    height:500px;
+    transition-property: all;
+    transition-delay: 0.5s;
+    transition-timing-function: ease-in;
+    transition-duration: 0.5s;
+    border-radius: 5%;
+}
+#ntr:hover{
+
+    width:99%;
+    height: 499px;
+
+}
+#ntr1:hover{
+    
+    width:99%;
+    height: 499px;
+
+}
+#ntr1{
+    width:100%;
+    height: 500px;
+    border-radius: 5%;
+    transition-property: all;
+    transition-delay: 0.5s;
+    transition-timing-function: ease-in;
+    transition-duration: 0.5s;
+ }
+.column {
+     border: 1px solid gray;
+  /* padding: 8px; */
+  /* text-align: left; */
+    /* padding-right: 100px; */
+  /* float: left;
+  width: 33.33%;
+  padding: 5px; */
+}
+
+.row {
+    width:100%;
+    border-collapse: collapse;
+    /* padding-right: 100px; */
+  /* content: "";
+  clear: both;
+  display: table; */
+}
+#ntr2{
+    width:40%;
+    height:300px;
+}
+#sai{
+    width: 100%;
+    height: 300px;
+}
+
+#sal{
+    display: flex;
+    justify-content: center;
+    gap:10px;
+}
+.nani img{
+    height: 300px;
+    width: 50;
+    border-radius:5%;
+    box-shadow: 0 0 1px black;
+}
+.nani:hover{
+    transform: scale(1.05);
+    transition: 10ms;
+}
+#sales{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.sale img{
+    height: 400px;
+    width: 250px;
+    border-radius: 10%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+.sale:hover{
+    transform: scale(1.05);
+    transition: 3ms;
+}
+#sales1{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+
+}
+.sale1 img{
+    height: 400px;
+    width: 250px;
+    border-radius: 10%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    overflow: hidden;
+    cursor: pointer;
+}
+.sale1:hover{
+    transform: scale(1.05);
+    transition: 1s;
+    transition-delay: 3ms;
+}    
+/* .sale1:hover{
+    transform: scale(-1.05);
+    transition: 1s;
+    transition-delay: 3ms;
+
+} */
+.s1{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+}
+.rahul{
+    padding: 12px 15px;
+}
+.name{
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 6px;
+    color: red;
+}
+/* .price{
+    color: rgb(187, 187, 10);
+    font-weight: 700;
+    font-size: 16px;
+} */
+* {box-sizing:border-box}
+
+.slideshow-container {
+  /* height: 50px; */
+  max-width: 2000px;
+  position: relative;
+  margin: auto;
+}
+.mySlides {
+  display: none;
+}
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: rgb(8, 205, 28);
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+.text {
+  color: red;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: rgb(235, 231, 9);
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+.price{
+    color:black;
+    font-weight: 700;
+    font-size: 18px;
+}
+.p{
+    color: red;
+}
+.p1{
+    color: rgb(172, 9, 174);
+}
+#lax{
+    text-decoration: none;
+    cursor: pointer;
+}
+.product-grid{
+     display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.product-card img{
+    height: 400px;
+    width: 250px;
+    border-radius: 10%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    overflow: hidden;
+    cursor: pointer;
+}
+.price{
+     color:black;
+    font-weight: 700;
+    font-size: 18px;
+}
+.atc{
+    font-size: 30px;
+}
+.product-name{
+    font-size: 30px;
+}
+.product-price{
+    font-size: 30px;
+}
