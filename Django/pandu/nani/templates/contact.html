@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About page</title>
+</head>
+<body>
+    <h1>About Page</h1>
+    <!-- <p>About page</p> -->
+    <!-- <a href="/">Home</a> -->
+
+    <div>  
+        {% for student in csd_list %}
+            <a href="{% url 'details' slug=student.slug %}">{{ student.name }}</a>
+            <h2>Roll No: {{ student.rollno }}</h2>
+        {% endfor %}
+    </div>
+</body> 
+</html>
